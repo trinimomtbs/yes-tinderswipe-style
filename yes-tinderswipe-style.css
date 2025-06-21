@@ -1,0 +1,38 @@
+.rahbecka-swipe {
+  max-width: 300px;
+  border-radius: 15px;
+  padding: 20px;
+  background: #fff;
+  color: #333;
+  margin: auto;
+  white-space: pre-line;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  font-size: 12px;
+  font-family: Nimbus-Sans-Extended, Helvetica, sans-serif;
+}
+
+.swipe-icon-circle--right {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #43e97b, #38f9d7); /* Grøn */
+  color: white;
+}
+
+.swipe-icon-circle--right:hover {
+  transform: none !important;
+  transition: none !important;
+}
+
+.swipe-icon-circle--right span {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
